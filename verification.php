@@ -17,7 +17,7 @@ $login = $_POST['login'];
 
 // MENGALIHKAN KE HALAMAN UTAMA JIKA DATA BELUM DI-INPUT
 if($email == "" && $password == "" && $login == ""){
-header("Location: index.php");
+header("Location: index.html");
 }
 ?>
 
